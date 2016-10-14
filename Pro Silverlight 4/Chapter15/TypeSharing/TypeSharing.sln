@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeSharingClient", "TypeSharingClient\TypeSharingClient.csproj", "{32C40158-A22B-4871-9F64-A114FDE9EC2D}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TypeSharing.Web", "TypeSharing.Web\", "{92CA9266-CD01-4794-AEE7-C6A192DAC15E}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{D21841EC-EAC5-4694-8EC5-AED2E38AB506}|DataClasses.ServerSide.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/TypeSharing.Web"
+		Debug.AspNetCompiler.PhysicalPath = "TypeSharing.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\TypeSharing.Web\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/TypeSharing.Web"
+		Release.AspNetCompiler.PhysicalPath = "TypeSharing.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\TypeSharing.Web\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "20408"
+		DefaultWebSiteLanguage = "Visual C#"
+		ProjOutputReferences = "{32C40158-A22B-4871-9F64-A114FDE9EC2D}|ClientBin|false;"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataClasses", "DataClasses\DataClasses.csproj", "{706C0356-2B78-4B92-BC2E-3FBC678FDAB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataClasses.ServerSide", "DataClasses.ServerSide\DataClasses.ServerSide.csproj", "{D21841EC-EAC5-4694-8EC5-AED2E38AB506}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32C40158-A22B-4871-9F64-A114FDE9EC2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32C40158-A22B-4871-9F64-A114FDE9EC2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32C40158-A22B-4871-9F64-A114FDE9EC2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32C40158-A22B-4871-9F64-A114FDE9EC2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92CA9266-CD01-4794-AEE7-C6A192DAC15E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92CA9266-CD01-4794-AEE7-C6A192DAC15E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92CA9266-CD01-4794-AEE7-C6A192DAC15E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{92CA9266-CD01-4794-AEE7-C6A192DAC15E}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{706C0356-2B78-4B92-BC2E-3FBC678FDAB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{706C0356-2B78-4B92-BC2E-3FBC678FDAB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{706C0356-2B78-4B92-BC2E-3FBC678FDAB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{706C0356-2B78-4B92-BC2E-3FBC678FDAB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D21841EC-EAC5-4694-8EC5-AED2E38AB506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D21841EC-EAC5-4694-8EC5-AED2E38AB506}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D21841EC-EAC5-4694-8EC5-AED2E38AB506}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D21841EC-EAC5-4694-8EC5-AED2E38AB506}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="fa6fbe3d-3b7b-4a0c-9d85-34e68dc5b8c7" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:9097/SilverlightUploader.Web/FileService.svc/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="0c00c51a-e663-4f65-a7a9-b31ca99db8c1" SourceId="1" SourceUrl="http://localhost:9097/SilverlightUploader.Web/FileService.svc/mex" />
+    <MetadataFile FileName="service1.wsdl" MetadataType="Wsdl" ID="fcfbd77c-41f0-4ce9-94c0-07805e6ca1bb" SourceId="1" SourceUrl="http://localhost:9097/SilverlightUploader.Web/FileService.svc/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="44714229-4225-45f7-a095-ad4ec8074816" SourceId="1" SourceUrl="http://localhost:9097/SilverlightUploader.Web/FileService.svc/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="fc71a271-6d55-4908-95cf-483ff8af71f6" SourceId="1" SourceUrl="http://localhost:9097/SilverlightUploader.Web/FileService.svc/mex" />
+    <MetadataFile FileName="Arrays.xsd" MetadataType="Schema" ID="2365e8f9-76e8-40e9-983f-60d97043df84" SourceId="1" SourceUrl="http://localhost:9097/SilverlightUploader.Web/FileService.svc/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

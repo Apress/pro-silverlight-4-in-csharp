@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuplexService", "DuplexService\DuplexService.csproj", "{77817B2B-EFC2-4D98-8B7B-D70EA7E189E2}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DuplexService.Web", "DuplexService.Web\", "{891CCA32-0A4E-406D-8C81-F6083C62470F}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/DuplexService.Web"
+		Debug.AspNetCompiler.PhysicalPath = "DuplexService.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\DuplexService.Web\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/DuplexService.Web"
+		Release.AspNetCompiler.PhysicalPath = "DuplexService.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\DuplexService.Web\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "44645"
+		DefaultWebSiteLanguage = "Visual C#"
+		ProjOutputReferences = "{77817B2B-EFC2-4D98-8B7B-D70EA7E189E2}|ClientBin|false;"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77817B2B-EFC2-4D98-8B7B-D70EA7E189E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77817B2B-EFC2-4D98-8B7B-D70EA7E189E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77817B2B-EFC2-4D98-8B7B-D70EA7E189E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77817B2B-EFC2-4D98-8B7B-D70EA7E189E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{891CCA32-0A4E-406D-8C81-F6083C62470F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{891CCA32-0A4E-406D-8C81-F6083C62470F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{891CCA32-0A4E-406D-8C81-F6083C62470F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{891CCA32-0A4E-406D-8C81-F6083C62470F}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

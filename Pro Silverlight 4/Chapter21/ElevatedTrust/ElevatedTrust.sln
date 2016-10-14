@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevatedTrust", "ElevatedTrust\ElevatedTrust.csproj", "{3FFAB119-771A-432E-BADF-44FBA6D339C2}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ElevatedTrust.Web", "ElevatedTrust.Web\", "{2CC8C357-6463-4E91-A35A-9CBC6964F98A}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/ElevatedTrust.Web"
+		Debug.AspNetCompiler.PhysicalPath = "ElevatedTrust.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\ElevatedTrust.Web\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/ElevatedTrust.Web"
+		Release.AspNetCompiler.PhysicalPath = "ElevatedTrust.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\ElevatedTrust.Web\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "10151"
+		ProjOutputReferences = "{3FFAB119-771A-432E-BADF-44FBA6D339C2}|ClientBin|false;"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{3FFAB119-771A-432E-BADF-44FBA6D339C2} = {3FFAB119-771A-432E-BADF-44FBA6D339C2}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FFAB119-771A-432E-BADF-44FBA6D339C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FFAB119-771A-432E-BADF-44FBA6D339C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FFAB119-771A-432E-BADF-44FBA6D339C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FFAB119-771A-432E-BADF-44FBA6D339C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CC8C357-6463-4E91-A35A-9CBC6964F98A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CC8C357-6463-4E91-A35A-9CBC6964F98A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CC8C357-6463-4E91-A35A-9CBC6964F98A}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CC8C357-6463-4E91-A35A-9CBC6964F98A}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

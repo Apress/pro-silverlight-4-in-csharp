@@ -1,0 +1,10 @@
+<OutOfBrowserSettings ShortName="EightBall" EnableGPUAcceleration="False" ShowInstallMenuItem="True">
+  <OutOfBrowserSettings.Blurb>Ask the EightBall any question, and it will tell
+you what your future holds.</OutOfBrowserSettings.Blurb>
+  <OutOfBrowserSettings.WindowSettings>
+    <WindowSettings Title="The EightBall - Ask a Question, See the Future" Top="100" Left="100" WindowStartupLocation="Manual" />
+  </OutOfBrowserSettings.WindowSettings>
+  <OutOfBrowserSettings.Icons>
+    <Icon Size="128,128">AppIcons/InstallImage.png</Icon>
+  </OutOfBrowserSettings.Icons>
+</OutOfBrowserSettings>

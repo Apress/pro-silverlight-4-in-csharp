@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBinding", "DataBinding\DataBinding.csproj", "{88F1D591-A8CD-497E-A622-A988739D3522}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DataBinding.Web", "DataBinding.Web\", "{A738F614-4D7F-42A7-BD9D-1384D5AA544F}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/DataBinding.Web"
+		Debug.AspNetCompiler.PhysicalPath = "DataBinding.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\DataBinding.Web\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/DataBinding.Web"
+		Release.AspNetCompiler.PhysicalPath = "DataBinding.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\DataBinding.Web\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "25901"
+		DefaultWebSiteLanguage = "Visual C#"
+		ProjOutputReferences = "{88F1D591-A8CD-497E-A622-A988739D3522}|ClientBin|false;"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88F1D591-A8CD-497E-A622-A988739D3522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88F1D591-A8CD-497E-A622-A988739D3522}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88F1D591-A8CD-497E-A622-A988739D3522}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88F1D591-A8CD-497E-A622-A988739D3522}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A738F614-4D7F-42A7-BD9D-1384D5AA544F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A738F614-4D7F-42A7-BD9D-1384D5AA544F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A738F614-4D7F-42A7-BD9D-1384D5AA544F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{A738F614-4D7F-42A7-BD9D-1384D5AA544F}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

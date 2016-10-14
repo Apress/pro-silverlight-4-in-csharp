@@ -1,0 +1,29 @@
+﻿<UserControl 
+ x:Class="Elements.TabControlTest"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:basics="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls" 
+    Width="400" Height="300">
+    <Grid x:Name="LayoutRoot" Background="White" Margin="10">
+    <basics:TabControl>
+			<basics:TabItem>
+				<basics:TabItem.Header>
+					<StackPanel>
+						<TextBlock Margin="3" >Image and Text Tab Title</TextBlock>
+						<Image Source="happyface.jpg" Stretch="None" />
+					</StackPanel>
+				</basics:TabItem.Header>
+
+				<StackPanel Margin="3">
+					<CheckBox Margin="3" Content="Setting 1"></CheckBox>
+					<CheckBox Margin="3" Content="Setting 2"></CheckBox>
+					<CheckBox Margin="3" Content="Setting 3"></CheckBox>
+				</StackPanel>
+			</basics:TabItem>
+			<basics:TabItem  Header="Tab Two">
+				
+			</basics:TabItem>
+
+		</basics:TabControl>
+    </Grid>
+</UserControl>

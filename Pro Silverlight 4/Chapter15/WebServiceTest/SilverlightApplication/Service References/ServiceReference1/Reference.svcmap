@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="8af8509d-e21d-4596-8606-6563d4ff25dc" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:5473/SilverlightApplication.Web/TestService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="TestService.disco" MetadataType="Disco" ID="5001eea4-daf1-44bc-9c2c-745b636c45e7" SourceId="1" SourceUrl="http://localhost:5473/SilverlightApplication.Web/TestService.svc?disco" />
+    <MetadataFile FileName="TestService1.xsd" MetadataType="Schema" ID="1a6be93c-7ba0-43d3-ad4c-855d3d27cb4f" SourceId="1" SourceUrl="http://localhost:5473/SilverlightApplication.Web/TestService.svc?xsd=xsd0" />
+    <MetadataFile FileName="TestService.xsd" MetadataType="Schema" ID="0e0f0a5b-6e69-47e0-a273-f259bbe48914" SourceId="1" SourceUrl="http://localhost:5473/SilverlightApplication.Web/TestService.svc?xsd=xsd1" />
+    <MetadataFile FileName="TestService.wsdl" MetadataType="Wsdl" ID="724eb054-a950-4225-b381-4cebe258d0f6" SourceId="1" SourceUrl="http://localhost:5473/SilverlightApplication.Web/TestService.svc?wsdl" />
+    <MetadataFile FileName="TestService1.wsdl" MetadataType="Wsdl" ID="fd035f02-581f-4beb-8b55-0ec8d2bf08c5" SourceId="1" SourceUrl="http://localhost:5473/SilverlightApplication.Web/TestService.svc?wsdl=wsdl0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

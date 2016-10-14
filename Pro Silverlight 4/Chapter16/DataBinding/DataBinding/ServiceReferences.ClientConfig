@@ -1,0 +1,17 @@
+﻿<configuration>
+    <system.serviceModel>
+        <bindings>
+            <basicHttpBinding>
+                <binding name="BasicHttpBinding_StoreDb" maxBufferSize="65536"
+                    maxReceivedMessageSize="65536">
+                    <security mode="None" />
+                </binding>
+            </basicHttpBinding>
+        </bindings>
+        <client>
+            <endpoint address="http://localhost:6629/DataBinding.Web/StoreDb.svc"
+                binding="basicHttpBinding" bindingConfiguration="BasicHttpBinding_StoreDb"
+                contract="DataService.StoreDb" name="BasicHttpBinding_StoreDb" />
+        </client>
+    </system.serviceModel>
+</configuration>

@@ -1,0 +1,11 @@
+﻿<UserControl x:Class="SilverlightApplication.Page"
+    xmlns="http://schemas.microsoft.com/client/2007" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:toolkit="http://schemas.microsoft.com/winfx/2006/xaml/presentation/toolkit">
+    <StackPanel x:Name="LayoutRoot" Background="White">
+		<Button x:Name="cmdCallService" Content="Call Ordinary Service" Click="callService_Click" Margin="5" Padding="3"></Button>		
+		<Button x:Name="cmdCallCachedService" Content="Call Cached Service" Click="callCachedService_Click" Margin="5" Padding="3"></Button>
+        <Button x:Name="cmdCallSlowService" Content="Call Slow Service" Margin="5" Padding="3" Click="cmdCallSlowService_Click"></Button>
+		<TextBlock x:Name="lblTime" Margin="5" TextWrapping="Wrap"></TextBlock>
+        <toolkit:BusyIndicator x:Name="busy" Margin="5" BusyContent="Contacting Service..." />
+    </StackPanel>
+</UserControl>

@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplashScreen", "SplashScreen\SplashScreen.csproj", "{7E5195E3-F830-41DB-B8A6-D1A1E8E8D954}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SplashScreen_Web", "SplashScreen_Web\", "{BC1DC7F7-5550-4974-BEC0-DA0408FAAF51}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/SplashScreen_Web"
+		Debug.AspNetCompiler.PhysicalPath = "SplashScreen_Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\SplashScreen_Web\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/SplashScreen_Web"
+		Release.AspNetCompiler.PhysicalPath = "SplashScreen_Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\SplashScreen_Web\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "12909"
+		DefaultWebSiteLanguage = "Visual C#"
+		ProjOutputReferences = "{7E5195E3-F830-41DB-B8A6-D1A1E8E8D954}|ClientBin|false;"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Release|.NET = Release|.NET
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E5195E3-F830-41DB-B8A6-D1A1E8E8D954}.Debug|.NET.ActiveCfg = Debug|Any CPU
+		{7E5195E3-F830-41DB-B8A6-D1A1E8E8D954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E5195E3-F830-41DB-B8A6-D1A1E8E8D954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E5195E3-F830-41DB-B8A6-D1A1E8E8D954}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{7E5195E3-F830-41DB-B8A6-D1A1E8E8D954}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{7E5195E3-F830-41DB-B8A6-D1A1E8E8D954}.Release|.NET.ActiveCfg = Release|Any CPU
+		{7E5195E3-F830-41DB-B8A6-D1A1E8E8D954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E5195E3-F830-41DB-B8A6-D1A1E8E8D954}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E5195E3-F830-41DB-B8A6-D1A1E8E8D954}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{7E5195E3-F830-41DB-B8A6-D1A1E8E8D954}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{BC1DC7F7-5550-4974-BEC0-DA0408FAAF51}.Debug|.NET.ActiveCfg = Debug|.NET
+		{BC1DC7F7-5550-4974-BEC0-DA0408FAAF51}.Debug|.NET.Build.0 = Debug|.NET
+		{BC1DC7F7-5550-4974-BEC0-DA0408FAAF51}.Debug|Any CPU.ActiveCfg = Debug|.NET
+		{BC1DC7F7-5550-4974-BEC0-DA0408FAAF51}.Debug|Mixed Platforms.ActiveCfg = Debug|.NET
+		{BC1DC7F7-5550-4974-BEC0-DA0408FAAF51}.Debug|Mixed Platforms.Build.0 = Debug|.NET
+		{BC1DC7F7-5550-4974-BEC0-DA0408FAAF51}.Release|.NET.ActiveCfg = Debug|.NET
+		{BC1DC7F7-5550-4974-BEC0-DA0408FAAF51}.Release|.NET.Build.0 = Debug|.NET
+		{BC1DC7F7-5550-4974-BEC0-DA0408FAAF51}.Release|Any CPU.ActiveCfg = Debug|.NET
+		{BC1DC7F7-5550-4974-BEC0-DA0408FAAF51}.Release|Mixed Platforms.ActiveCfg = Debug|.NET
+		{BC1DC7F7-5550-4974-BEC0-DA0408FAAF51}.Release|Mixed Platforms.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
